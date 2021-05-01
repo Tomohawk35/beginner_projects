@@ -5,6 +5,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Calculator")
+#root.iconbitmap('c:/...')
 
 calc_display = Entry(root, width=50)
 calc_display.grid(row=0, column=0, columnspan=4, padx=5, pady=5, ipady=5)
